@@ -59,6 +59,13 @@ input[type=text] {
   height: 233px;
 }
 
+.logo-subtext {
+  color: #4285f4;
+  position: relative;
+  top: 35px;
+  right: 40px;
+}
+
 #header {
   height: 50px;
 }
