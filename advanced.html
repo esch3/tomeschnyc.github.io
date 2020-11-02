@@ -11,28 +11,45 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-8">
+    <header>
+        <nav id="advanced-nav">
+            <img id="icon" src="img/google.png">
+        </nav>
+        <div id="advanced-header">
+            Advanced Search
+        </div>
+        <hr>
+    </header>
+    <main id="main-search">
+        <label id="find-label">Find pages with...</label>
+        <div id="inputs">
+            <div>
+                <label id="all-label">all these words:</label>
             </div>
-            <div class="col-4">
-                <a href="image.html">Images</a>
-                <a href="index.html">Search</a>
+            <div>
+                <input class="input-field" type="text">
+            </div>
+            <div>
+                <label id="exact-label">this exact word or phrase:</label>
+            </div>
+            <div>
+                <input class="input-field" type="text">
+            </div>
+            <div>
+                <label id="any-label">any of these words:</label>
+            </div>
+            <div>
+                <input class="input-field" type="text">
+            </div>
+            <div>
+                <label id="none-label">none of these words:</label>
+            </div>
+            <div>
+                <input class="input-field" type="text">
             </div>
         </div>
-        <div id="banner" class="row justify-content-center align-items-center">
-            <img style="height: 82px;" src="img/google.png" alt="Google">
-        </div>
-        <form action="https://google.com/search">
-            <div id="search-bar" class="row justify-content-center">
-                <input style="border-radius: 100px;" type="text" class="form-control my-0 py-1" name="q">
-            </div>
-            <div id="btn-grp" class="row justify-content-center align-items-center">
-                <input type="submit" class="col-3" value="Google Search">
-                <input type="submit" class="col-3" name="btnI" value="I'm Feeling Lucky">
-            </div>
-        </form>
-    </div>
+    </main>
+    <hr>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

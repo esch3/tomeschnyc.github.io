@@ -70,4 +70,72 @@ input[type=text] {
   height: 50px;
 }
 
+/* Styles for advanced.html */
+
+#advanced-nav {
+  height: 60px;
+  background-color: rgb(128, 128, 128, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+#icon {
+  margin-left: 20px;
+  width: 92px;
+  height: 33px;
+}
+
+#advanced-header {
+  display: flex;
+  margin-left: 40px;
+  padding-top: 10px;
+  font-size: 1.3rem;
+  height: 60px;
+  align-items: center;
+  color: #d93025;
+}
+
+#inputs {
+  display: grid;
+  grid-template-columns: 200px 100px;
+  grid-template-rows: 41px 41px 41px 41px;
+  grid-template-areas:
+  ". ."
+  ". ."
+  ". ."
+  ". .";
+  font-size: 12px;
+}
+
+#main-search {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#find-label {
+  margin-bottom: 20px;
+}
+
+#all-label {
+  
+}
+
+#exact-label {
+
+}
+
+#any-label {
+
+}
+
+#none-label {
+
+}
+
+.input-field {
+  border-top: 1px solid #c0c0c0;
+font-size: 13px;
+}
+
+
 /*# sourceMappingURL=styles.css.map */
