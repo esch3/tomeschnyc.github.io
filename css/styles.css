@@ -101,9 +101,10 @@ nav img {
 
 #inputs {
   display: grid;
-  grid-template-columns: 200px 100px;
-  grid-template-rows: 41px 41px 41px 41px;
+  grid-template-columns: 200px 482px;
+  grid-template-rows: 41px 41px 41px 50px;
   grid-template-areas:
+  ". ."
   ". ."
   ". ."
   ". ."
@@ -139,6 +140,10 @@ nav img {
 .input-field {
   border-top: 1px solid #c0c0c0;
 font-size: 13px;
+}
+
+#advanced-button {
+  float: right;
 }
 
 
