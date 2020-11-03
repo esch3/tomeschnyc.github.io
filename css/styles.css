@@ -80,6 +80,10 @@ input[type=text] {
 }
 
 #icon {
+  display: block;
+}
+
+nav img {
   margin-left: 20px;
   width: 92px;
   height: 33px;
