@@ -24,12 +24,15 @@
     </header>
     <main id="main-search">
         <label id="find-label">Find pages with...</label>
-        <div id="inputs">
+        <form action="https://google.com/search" id="inputs">
+            <input type="hidden" name="as_occt" value="any">
+            <input type="hidden" name="safe" value="images">
+            <input type="hidden" name="as_qdr" value="all">
             <div>
                 <label id="all-label">all these words:</label>
             </div>
             <div>
-                <input class="input-field" type="text">
+                <input class="input-field" type="text" name="as_q">
             </div>
             <div>
                 <label id="exact-label">this exact word or phrase:</label>
@@ -49,7 +52,13 @@
             <div>
                 <input class="input-field" type="text">
             </div>
-        </div>
+            <div>
+
+            </div>
+            <div>
+                <button id="advanced-button" type="submit" class="btn btn-sm btn-primary">Advanced Search</button>
+            </div>
+        </form>
     </main>
     <hr>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
