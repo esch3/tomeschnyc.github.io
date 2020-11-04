@@ -70,6 +70,10 @@ input[type=text] {
   height: 50px;
 }
 
+.navbar-nav {
+  flex-direction: row;
+}
+
 /* Styles for advanced.html */
 
 #advanced-nav {
