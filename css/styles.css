@@ -134,15 +134,11 @@ nav img {
   margin-bottom: 20px;
 }
 
+.search-phrase {
+  margin-bottom: 10px;
+}
 
 .input-field {
   border-top: 1px solid #c0c0c0;
-font-size: 13px;
+  font-size: 13px;
 }
-
-#advanced-button {
-  float: right;
-}
-
-
-/*# sourceMappingURL=styles.css.map */
