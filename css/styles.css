@@ -56,8 +56,17 @@ input[type=text] {
   height: 44px;
 }
 
+.search {
+  border-radius: 50px; 
+}
+
+#main-img {
+  height: 82px;
+}
+
 #banner {
-  height: 233px;
+  height: 150px;
+  margin-top: 80px;
 }
 
 .logo-subtext {
@@ -111,19 +120,6 @@ nav img {
   height: 60px;
   align-items: center;
   color: #d93025;
-}
-
-#inputs {
-  display: grid;
-  grid-template-columns: 200px 482px;
-  grid-template-rows: 41px 41px 41px 50px;
-  grid-template-areas:
-  ". ."
-  ". ."
-  ". ."
-  ". ."
-  ". .";
-  font-size: 12px;
 }
 
 #main-search {
