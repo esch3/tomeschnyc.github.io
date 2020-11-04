@@ -22,41 +22,30 @@
         </div>
         <hr>
     </header>
-    <main id="main-search">
-        <label id="find-label">Find pages with...</label>
-        <form action="https://google.com/search" id="inputs">
+    <main class="container">
+        <label class="row" id="find-label">Find pages with...</label>
+        <form  action="https://google.com/search">
             <input type="hidden" name="as_occt" value="any">
             <input type="hidden" name="safe" value="images">
             <input type="hidden" name="as_qdr" value="all">
-            <div>
-                <label id="all-label">all these words:</label>
+            <div class="row search-phrase">
+                <label class="col-4">all these words:</label>
+                <input class="col-8 input-field" type="text" name="as_q">
             </div>
-            <div>
-                <input class="input-field" type="text" name="as_q">
+            <div class="row search-phrase">
+                <label class="col-4">this exact word or phrase:</label>
+                <input class="col-8 input-field" type="text" name="as_epq">
             </div>
-            <div>
-                <label id="exact-label">this exact word or phrase:</label>
+            <div class="row search-phrase">
+                <label class="col-4" id="any-label">any of these words:</label>
+                <input class="col-8 input-field" type="text" name="as_oq">
             </div>
-            <div>
-                <input class="input-field" type="text" name="as_epq">
+            <div class="row search-phrase">
+                <label class="col-4" id="none-label">none of these words:</label>
+                <input class="col-8 input-field" type="text" name="as_eq">
             </div>
-            <div>
-                <label id="any-label">any of these words:</label>
-            </div>
-            <div>
-                <input class="input-field" type="text" name="as_oq">
-            </div>
-            <div>
-                <label id="none-label">none of these words:</label>
-            </div>
-            <div>
-                <input class="input-field" type="text" name="as_eq">
-            </div>
-            <div>
-
-            </div>
-            <div>
-                <button id="advanced-button" type="submit" class="btn btn-sm btn-primary">Advanced Search</button>
+            <div class="row justify-content-end">
+                <button type="submit" class="btn btn-sm btn-primary">Advanced Search</button>
             </div>
         </form>
     </main>
